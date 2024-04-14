@@ -1,0 +1,46 @@
+{
+    "name": "Academy Cafe",
+    "short_name": "AC",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "School / Social Enterprise Cafe Ordering App",
+    "icons": [
+    {
+    "src": "images/cafeLogoNoText1024.png",
+    "sizes": "1024x1024",
+    "type": "image/png"
+    },
+    {
+    "src": "images/logoTransp512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+    },
+    {
+    "src": "images/cafeLogoNoText512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+    },
+    {
+    "src": "images/cafeLogoNoText192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+    },
+    {
+    "src": "images/cafeLogoNoText144.png",
+    "sizes": "144x144",
+    "type": "image/png"
+    },
+    {
+    "src": "images/genericCup.png",
+    "sizes": "192x192",
+    "type": "image/png"
+    },
+    {
+    "src": "images/homescreen512.png",
+    "sizes": "640x798",
+    "type": "image/png"
+    }
+    ]
+   }
+   
