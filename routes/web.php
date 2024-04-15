@@ -36,4 +36,20 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+Route::middleware('auth')->group(function () {
+    Route::get('/products', function () {
+        // Specify the path to your index.html file relative to the public directory
+        $filePath = public_path('index.html');
+        
+        // Check if the file exists
+        if (file_exists($filePath)) {
+            // Return the file as a response
+            return response()->file($filePath);
+        } else {
+            // If the file does not exist, return a 404 error
+            abort(404);
+        }
+    })->name('products');
+});
+
 require __DIR__.'/auth.php';

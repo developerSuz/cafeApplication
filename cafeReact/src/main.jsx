@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import App from './FrontEndApp.jsx'
 import './index.css'
 
 // eslint-disable-next-line react-refresh/only-export-components

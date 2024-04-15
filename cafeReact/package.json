@@ -1,8 +1,7 @@
 {
-  "name": "CafeApplication",
+  "name": "cafeapplication",
   "version": "0.3.0",
   "private": true,
-  "homepage": "https://github.com/developerSuz/cafeApplication",
   "type": "module",
   "scripts": {
     "dev": "vite --port 3000 --open",
@@ -11,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@inertiajs/inertia-react": "^0.8.1",
     "dexie": "^3.2.5",
     "dexie-react-hooks": "^1.1.7",
     "nanoid": "^5.0.5",
@@ -18,7 +18,8 @@
     "react-dom": "^18.2.0",
     "react-helmet-async": "^2.0.4",
     "react-webcam": "^7.2.0",
-    "reactjs-popup": "^2.0.6"
+    "reactjs-popup": "^2.0.6",
+    "tailwindcss": "^3.4.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.51",
